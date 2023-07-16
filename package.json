@@ -1,0 +1,11 @@
+{
+  "name": "config-format-convertor",
+  "version": "0.0.1",
+  "main": "convertor.js",
+  "license": "MIT",
+  "type" : "module",
+  "dependencies": {
+    "@hanazuki/node-jsonnet": "^2.1.0",
+    "yaml": "^2.3.1"
+  }
+}
