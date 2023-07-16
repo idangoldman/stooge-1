@@ -20,10 +20,10 @@ const convert = async (input, output, ext) => {
 
   switch (ext) {
     case '.jsonnet':
-      await toYAML(input, content);
+      await toYAML(input, output, content);
       break;
     case '.yml':
-      await toJsonnet(input, content);
+      await toJsonnet(input, output, content);
       break;
     default:
       console.error(`File ${input} is not a jsonnet or yaml file`);
